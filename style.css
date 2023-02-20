@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Style the main content */
+main {
+  margin: 2em auto;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+/* Style the contact form */
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-top: 2em;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+textarea {
+  height: 10em;
+}
+
+button[type='submit'] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 1em 2em;
+}
+
+button[type='submit']:hover {
+  background-color: #555;
+}
+
+/* Other styles */
+
+@media screen and (max-width: 48em) {
+  /* Styles for screens less than 768px wide */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 48em) and (max-width: 61.9375em) {
+  /* Styles for screens between 768px and 991px wide */
+  .container {
+    max-width: 46.875em; /* Equivalent to 750px */
+  }
+}
+
+@media screen and (min-width: 62em) {
+  /* Styles for screens 992px or wider */
+  .container {
+    max-width: 60.625em; /* Equivalent to 970px */
+  }
+}
+
+header {
+  padding: 2em;
+}
+//display icons for each skill
+
+tech-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Other styles */
